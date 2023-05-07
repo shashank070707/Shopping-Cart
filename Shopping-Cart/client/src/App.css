@@ -1,0 +1,448 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.active-class{
+    background-color: #dc3545;
+    border-radius: 10px;
+}
+
+.navbar-left{
+    margin-left: auto; 
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px !important;
+}
+
+.footer {
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    /* margin-top: 75vh; */
+}
+
+.login-image{
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.regi-image{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.signIn {
+  color:#000;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.exampleInputText {
+  background-color: #fff;
+  border:none;
+  /* border-bottom: 2px solid gray; */
+  outline: none;
+  padding-left: 5%;
+  width:90%;
+}
+
+.user-icon{
+  color: red !important;
+  background-color: #000;
+}
+
+.name-field {
+  border-bottom: 2px solid gainsboro;
+  margin-bottom: 20px;
+  width:90%;
+}
+
+.userLoginBlock{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius:20px ;
+    margin-bottom: 25px;
+    -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+    -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+}
+
+.contact-head-div {
+  width:100%;
+  background-color: #fff;
+  height:100px;
+  margin-top: 20px;
+  
+  /* padding-top: 10%; */
+}
+
+.contact-first-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+}
+
+.contact-second-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+  border-radius: 10px;
+}
+
+.contact-third-div {
+  float: left;
+  margin-left: 10%;
+  width:80%;
+  height:70px;
+  background-color: #fff;
+  margin-top: 15px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+  border-radius: 10px;
+}
+
+.contact-icons{
+  color: skyblue;
+  float: left;
+  width: 20%;
+  padding-left: 7%;
+  padding-top: 20px;
+}
+
+.inContact-div {
+  margin-top: 10px;
+}
+
+.contact-block {
+  width:900px;
+  height:400px;
+  background-color: #fff;
+  margin:auto;
+  margin-top: 50px;
+  /* padding-left: 5%; */
+  padding-top: 50px;
+  /* padding-right: 5%; */
+  border-radius: 20px;
+  -moz-box-shadow: 15px 15px 15px rgba(8, 8, 8, 0.6);
+  -webkit-box-shadow: 15px 15px 15px rgba(10, 10, 10, 0.6);
+  box-shadow: 5px 5px 15px rgba(10, 10, 10, 0.6);
+}
+
+.contactUs {
+  margin-left: 10%;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact-data-div {
+  width:80%;
+  float: left;
+  height: 40px;
+  /* outline: none; */
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  /* margin-right: 5px; */
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  margin-left: 10%;
+  width: 80%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  resize: none;
+}
+
+.contact-main{
+        margin-top: 20px;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .contact-main{
+        margin-top: 200px;
+    }
+}
+
+.register-block {
+  margin-top: 20px;
+    padding-top: 20px;
+    border-radius:20px ;
+    margin-bottom: 25px;
+    -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+    -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+}
+
+.first-div {
+  width:450px;
+  height:100%;
+  border-radius: 20px;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-right: 5%;
+  float:left;
+  background-color: #fff;
+}
+
+.second-div {
+  /* width:400px; */
+  height:100%;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.second-div img {
+  width:450px;
+  margin-top: 50px;
+  /* height: 100%; */
+}
+
+.signUp {
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.shop-div {
+  margin-top: 30px;
+  height:750px;
+  overflow: scroll;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
+::-webkit-scrollbar-thumb {
+    background: blueviolet;
+}
+
+.card2-div {
+  margin-top: 20px;
+  width: 85%;
+  margin-left: 25px;
+  /* margin-right: 5px; */
+  margin-top: 20px;
+  float: left;
+}
+
+.proImg {
+  width:60%;
+  height: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.acc-div{
+  border-radius: 20px;
+  height:500px;
+  margin-top: 20px;
+  -moz-box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.6);
+    -webkit-box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.6);
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.6);
+}
+
+.acc-one {
+  overflow: hidden;
+  width:100%;
+  height:500px;
+  background-color: #fff;
+  align-items: center;
+  padding-top:40px;
+}
+
+.card-image {
+  height:250px;
+}
+
+.cate-div {
+  text-align: center;
+}
+
+.fi{
+  background-color: #000;
+}
+
+.cate-nav-div {
+  /* width:100px; */
+  text-align: center;
+}
+
+.error-div {
+  text-align: center;
+  content: "404";
+}
+
+.error-div p {
+  font-size: 300px;
+}
+
+.error-div button {
+  background-color: rgb(20, 152, 240);
+  outline: none;
+  border: none;
+  height: 40px;
+  width:200px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.success-div{
+  width:400px;
+  height:500px;
+  background-color: #fff;
+  margin:auto;
+}
+
+.fa-check-circle{
+  color: green;
+  margin-left: 100px;
+  font-size: 200px;
+}
+
+.success-msg-div{
+  text-align: center;
+}
+
+/* .home-back {
+  background:url('./images/shopping.jpg') no-repeat;
+  background-size: 100% 100%;
+} */
+
+.bg-image {
+  /* The image used */
+  background-image: url("./images/shopping.jpg");
+
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* z-index: 2; */
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  align-self: center;
+}
+
+/* Extra Large Devices.......... */
+@media (min-width:1200px) {
+    .card-div {
+    margin-top: 20px;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 20px;
+  }
+}
+
+/* Large Devices.......... */
+@media (min-width:992px) and (max-width:1199px) {
+    .card-div {
+    margin-top: 20px;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 20px;
+  }
+}
+
+/* Medium Devices.......... */
+@media (min-width:768px) and (max-width:991px) {
+    .card-div {
+    margin-top: 20px;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 20px;
+  }
+  .acc-div{
+    height:1000px;
+  }
+}
+
+/* Small Devices.......... */
+@media (min-width:576px) and (max-width:767px) {
+    .card-div {
+    margin-top: 20px;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 20px;
+  }
+
+  .acc-div{
+    height:1500px;
+  }
+  .acc-one {
+    height:400px;
+  }
+}
+
+/* Extra Small Devices.......... */
+@media (max-width:576px) {
+    .card-div {
+    margin-top: 20px;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 20px;
+  }
+  .acc-div{
+    height:1500px;
+  }
+}
